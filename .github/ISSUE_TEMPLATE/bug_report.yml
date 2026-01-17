@@ -14,15 +14,12 @@ body:
       label: Component
       description: Which part of the system is affected?
       options:
-        - Backend API
-        - Frontend (Assessment Platform)
-        - Database
-        - CAD Sessions (OnShape/KiCAD)
-        - Proctoring Service
-        - Scoring Service
-        - Email Service
-        - Authentication
-        - Other
+        - scoring
+        - assessment-platform
+        - database
+        - proctoring
+        - email
+        - user.colare.com
     validations:
       required: true
 
@@ -66,15 +63,6 @@ body:
       label: Expected Behavior
       description: What did you expect to happen?
       placeholder: Describe what should have happened
-    validations:
-      required: true
-
-  - type: textarea
-    id: actual
-    attributes:
-      label: Actual Behavior
-      description: What actually happened?
-      placeholder: Describe what actually happened
     validations:
       required: true
 
