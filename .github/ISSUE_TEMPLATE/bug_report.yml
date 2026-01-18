@@ -54,8 +54,6 @@ body:
         2. Click on '...'
         3. Scroll down to '...'
         4. See error
-    validations:
-      required: true
 
   - type: textarea
     id: expected
@@ -63,8 +61,6 @@ body:
       label: Expected Behavior
       description: What did you expect to happen?
       placeholder: Describe what should have happened
-    validations:
-      required: true
 
   - type: textarea
     id: error
